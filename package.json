@@ -1,0 +1,26 @@
+{
+  "name": "@camplight/backpack",
+  "version": "1.0.0",
+  "description": "Backpack utilities for code camping 🎒",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camplight/backpack.git"
+  },
+  "keywords": [
+    "camplight",
+    "backpack",
+    "nodejs",
+    "nextjs",
+    "react"
+  ],
+  "author": "Camplight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camplight/backpack/issues"
+  },
+  "homepage": "https://github.com/camplight/backpack#readme"
+}
