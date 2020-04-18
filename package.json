@@ -1,15 +1,12 @@
 {
   "name": "@camplight/backpack",
   "version": "0.1.0",
+  "author": "Camplight",
+  "license": "MIT",
   "description": "Backpack utilities for code camping",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camplight/backpack.git"
-  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "keywords": [
     "camplight",
     "backpack",
@@ -17,10 +14,40 @@
     "nextjs",
     "react"
   ],
-  "author": "Camplight",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/camplight/backpack/issues"
+  "homepage": "https://github.com/camplight/backpack#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camplight/backpack.git"
   },
-  "homepage": "https://github.com/camplight/backpack#readme"
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^5.4.2",
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.49",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/lodash": "^4.14.149",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-imports": "^2.0.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
+  }
 }
