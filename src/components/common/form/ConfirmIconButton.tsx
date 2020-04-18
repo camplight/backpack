@@ -11,7 +11,7 @@ import {
   IconButtonProps,
 } from '@material-ui/core'
 
-import { useConfirm, ConfirmProps } from '../../../hooks'
+import { useConfirm, ConfirmProps } from 'src/hooks'
 
 export type ConfirmButtonProps = {
   buttonIcon: ReactNode

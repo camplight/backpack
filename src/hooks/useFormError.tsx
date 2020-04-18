@@ -1,7 +1,6 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
-import FormError from '../components/common/form/FormError'
+import FormError from 'src/components/common/form/FormError'
 
 const useFormError = (initial = '') => {
   const [formError, setFormError] = useState<string>(initial)
