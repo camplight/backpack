@@ -5,7 +5,7 @@ import {
   ListItemIcon,
   ListItemText,
 } from '@material-ui/core'
-import { useRouter } from 'next/dist/client/router'
+import { useRouter } from 'next/router'
 
 export type UrlItem = {
   href: string
